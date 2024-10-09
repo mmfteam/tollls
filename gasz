@@ -1,0 +1,27 @@
+proxies:
+  - name: MMF-TMelbi
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: eef7e6a1-5f93-466b-b3bf-1ce756bf0b6a
+    skip-cert-verify: true
+    sni: sg1.urlcdn.top
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg1.urlcdn.top
+    udp: true
+  - name: MMF-TDo
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: f2347cc2-82cb-4482-aa2d-a5e2f3151b00
+    skip-cert-verify: true
+    sni: sg.mmfteam.web.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg.mmfteam.web.id
+    udp: true
