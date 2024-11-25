@@ -12,16 +12,19 @@ proxies:
       headers:
         Host: sg1.urlcdn.top
     udp: true
-  - name: MMF-TDo
+  - name : MMF-TEST
     server: 104.22.5.240
     port: 443
-    type: trojan
-    password: f2347cc2-82cb-4482-aa2d-a5e2f3151b00
+    type: vmess
+    uuid: 97033eee-03ef-472c-8fd7-e7ca5dcb80de
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg.mmfteam.web.id
+    servername: free.novann.store
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /vmess
       headers:
-        Host: sg.mmfteam.web.id
+        Host: free.novann.store
     udp: true
