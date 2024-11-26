@@ -5,7 +5,7 @@ proxies:
     type: trojan
     password: eef7e6a1-5f93-466b-b3bf-1ce756bf0b6a
     skip-cert-verify: true
-    sni: sg1.urlcdn.top
+    sni: sg1urlcdn.khusus.workers.dev
     network: ws
     ws-opts:
       path: /trojan-ws
