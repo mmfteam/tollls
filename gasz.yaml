@@ -10,7 +10,7 @@ proxies:
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: sg1.urlcdn.top
+        Host: sg1urlcdn.khusus.workers.dev
     udp: true
   - name : MMF-FREE1
     server: 104.22.5.240
