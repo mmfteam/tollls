@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: sg1.urlcdn.top
     udp: true
-  - name : MMF-TEST
+  - name : MMF-FREE1
     server: 104.22.5.240
     port: 443
     type: vmess
@@ -27,4 +27,20 @@ proxies:
       path: /vmess
       headers:
         Host: free.novann.store
+    udp: true
+  - name : MMF-FREE2
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 654bc14a-fac3-4776-bb8d-8597ef1f982e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.upzztenma-ch.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id.upzztenma-ch.biz.id
     udp: true
