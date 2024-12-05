@@ -5,12 +5,12 @@ proxies:
     type: trojan
     password: eef7e6a1-5f93-466b-b3bf-1ce756bf0b6a
     skip-cert-verify: true
-    sni: sg1urlcdn.khusus.workers.dev
+    sni: sg1.cepat.top
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: sg1urlcdn.khusus.workers.dev
+        Host: sg1.cepat.top
     udp: true
   - name : MMF-FREE1
     server: 104.22.5.240
