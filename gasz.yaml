@@ -12,21 +12,21 @@ proxies:
       headers:
         Host: sg1.cepat.top
     udp: true
-  - name : MMF-FREE1
-    server: 104.22.5.240
+  - name : MMF-TMelbiVMESS
+    server: img.email3.vidio.com
     port: 443
     type: vmess
-    uuid: 97033eee-03ef-472c-8fd7-e7ca5dcb80de
+    uuid: eef7e6a1-5f93-466b-b3bf-1ce756bf0b6a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: free.novann.store
+    servername: sg1.cepat.top
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vmess-ws
       headers:
-        Host: free.novann.store
+        Host: sg1.cepat.top
     udp: true
   - name : MMF-FREE2
     server: 104.22.5.240
