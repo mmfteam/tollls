@@ -29,18 +29,18 @@ proxies:
         Host: sg1.cepat.top
     udp: true
   - name : MMF-FREE2
-    server: 104.22.5.240
+    server: img.email3.vidio.com
     port: 443
     type: vmess
-    uuid: 654bc14a-fac3-4776-bb8d-8597ef1f982e
+    uuid: f4ff0cbd-d751-4ddc-89f9-9fd9bc82890a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id.upzztenma-ch.biz.id
+    servername: sg.axelnet.tech
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id.upzztenma-ch.biz.id
+        Host: sg.axelnet.tech
     udp: true
