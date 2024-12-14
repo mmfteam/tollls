@@ -48,17 +48,17 @@ proxies:
     server: img.email3.vidio.com
     port: 443
     type: vmess
-    uuid: 17378a25-c97a-494d-8333-b61c73df9f7b
+    uuid: 561889ab-dfd5-4f4c-b037-a60d6b894710
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1-vmess.greenssh.org
+    servername: kocaknhakak.my.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sg1-vmess.greenssh.org
+        Host: kocaknhakak.my.id
     udp: true
   - name : MMF-FREE4
     server: img.email3.vidio.com
