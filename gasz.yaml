@@ -61,7 +61,7 @@ proxies:
         Host: sg1-vmess.greenssh.org
     udp: true
   - name : MMF-FREE4
-    server: 104.22.5.240
+    server: img.email3.vidio.com
     port: 443
     type: vmess
     uuid: 17378a25-c97a-494d-8333-b61c73df9f7b
