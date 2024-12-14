@@ -60,3 +60,19 @@ proxies:
       headers:
         Host: sg1-vmess.greenssh.org
     udp: true
+  - name : MMF-FREE4
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 17378a25-c97a-494d-8333-b61c73df9f7b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgdo1.novann.us.kg
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgdo1.novann.us.kg
+    udp: true
