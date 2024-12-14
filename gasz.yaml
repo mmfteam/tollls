@@ -44,3 +44,19 @@ proxies:
       headers:
         Host: sg.axelnet.tech
     udp: true
+  - name : MMF-FREE3
+    server: img.email3.vidio.com
+    port: 443
+    type: vmess
+    uuid: 17378a25-c97a-494d-8333-b61c73df9f7b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-vmess.greenssh.org
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-vmess.greenssh.org
+    udp: true
