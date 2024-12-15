@@ -28,21 +28,21 @@ proxies:
       headers:
         Host: nusa.dreamserver.xyz
     udp: true
-  - name : MMF-FREE2
-    server: img.email3.vidio.com
+  - name : MMF-DO
+    server: 104.22.5.240
     port: 443
     type: vmess
-    uuid: f4ff0cbd-d751-4ddc-89f9-9fd9bc82890a
+    uuid: 2237f7ba-ca85-46c1-9bc0-67b669fae083
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg.axelnet.tech
+    servername: do-g.dreamserver.xyz
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sg.axelnet.tech
+        Host: do-g.dreamserver.xyz
     udp: true
   - name : MMF-FREE3
     server: img.email3.vidio.com
