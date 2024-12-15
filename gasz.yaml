@@ -12,21 +12,21 @@ proxies:
       headers:
         Host: sg1.cepat.top
     udp: true
-  - name : MMF-TMelbiVMESS
+  - name : MMF-NUSA
     server: img.email3.vidio.com
     port: 443
     type: vmess
-    uuid: eef7e6a1-5f93-466b-b3bf-1ce756bf0b6a
+    uuid: 606480de-ee2a-4ef1-9c98-e12d10f22b78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1.cepat.top
+    servername: nusa.dreamserver.xyz
     network: ws
     ws-opts:
-      path: /vmess-ws
+      path: /vmess
       headers:
-        Host: sg1.cepat.top
+        Host: nusa.dreamserver.xyz
     udp: true
   - name : MMF-FREE2
     server: img.email3.vidio.com
